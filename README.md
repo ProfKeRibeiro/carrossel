@@ -8,10 +8,9 @@ Este repositório contém um projeto de carrossel de imagens para que os alunos 
 
 
 ## O semáforo deve ser controlado usando as seguintes técnicas:
-1. **querySelectorAll():** Este método é usado para selecionar todos os elementos com base em um seletor css. No caso deste projeto, é usado para selecionar os elementos buttons. 
-2. **addEventListener():** Este método é usado para adicionar um ouvinte de evento a um elemento. No caso deste projeto, é usado para adicionar um ouvinte de evento click dos três botões disponíveis.
-3. **classList.contains():** Este método é usado para verificar se uma classe está presente na lista de classes de um elemento. No caso deste projeto, é usado para verificar se a classe "automatico" está presente na lista de classes.
-4. **setInterval():** Este método é usado para executar uma função repetidamente em intervalos regulares. No caso deste projeto, é usado para mudar o estado das luzes do semáforo a cada segundo. 
-5. **clearInterval():** Este método é usado para cancelar um intervalo. No caso deste projeto, é usado para cancelar o intervalo que muda o estado das luzes do semáforo. 
-6. **setAttribute():** Este método é usado para definir o atributo de um elemento. No caso deste projeto, é usado para definir o atributo src da imagem do semáforo para um arquivo diferente. 
-7. **estrutura de seleção:** Esta técnica é usada para selecionar elementos usando uma sintaxe mais concisa. No caso deste projeto, é usado para selecionar a mudança dos três círculos que representam as luzes do semáforo.
+1. **querySelector():** Este método é usado para selecionar o elemento com base em um seletor css. No caso deste projeto, é usado para selecionar o elemento container-items e posteriormente os elementos "próximo" e "anterior" respectivamente.
+2. 1. **querySelectorAll():** Este método é usado para selecionar todos os elementos com base em um seletor css. No caso deste projeto, é usado para selecionar os elementos item.
+3. **addEventListener():** Este método é usado para adicionar um ouvinte de evento a um elemento. No caso deste projeto, é usado para adicionar um ouvinte de evento click dos botões "próximo" e "anterior".
+4. **apendChild():** Este método é usado para adiciona um nó ao final da lista de filhos de um nó pai especificado. No caso deste projeto, é usado para adicionar item no container
+5. **insertBefore():** Este método é usado para inserir um nó antes de um nó de referência, como filho de um nó pai especificado. No caso deste projeto, é usado adicionar o ultimo elemento item após o item anterior no carrossel.
+6.  **estrutura de repetição:** Esta técnica é usada para percorrer cada elemento do objeto imagens.
