@@ -1,7 +1,7 @@
 # Projeto Carrossel!
 
 <p align="center">
-  <img src="https://github.com/ProfKeRibeiro/semaforo/assets/133296861/40eb6d04-55a6-4ca0-ade9-9a6c0ceb8674" width=300px/>
+  <img src="#" width=300px/>
 </p>
 
 Este repositório contém um projeto de carrossel de imagens para que os alunos do 2º ano do ensino médio com habilitação profissional de **TÉCNICO EM INFORMÁTICA PARA INTERNET** possam desenvolver a lógica da troca das imagens em **JavaScript puro**.
